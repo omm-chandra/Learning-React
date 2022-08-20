@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header_div {
+    background-color: rgb(255, 214, 7);
+    padding: 1rem 1rem;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+}
+
+.web_name {
+    margin-top: 0.6rem;
+    margin-left: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.Write_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.Under_div {
+    padding: 1rem 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 10px 10px 40px 10px rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.Tittle_part {
+    height: 2rem;
+    width: 17rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 1rem;
+    color: #ff0b0b;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #000000;
+    padding-left: 0.5rem;
+}
+
+.Content_part {
+    height: 3rem;
+    width: 17rem;
+    margin-bottom: 1rem;
+    color: #000000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #000000;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Add_btn {
+    background-color: #ffd607;
+    padding: 0.4rem 0.5rem;
+    border-radius: 100%;
+    color: black;
+    font-weight: 800;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(212, 200, 24, 0.9), 10px 10px 40px 10px rgba(58, 56, 18, 0.19);
+    cursor: pointer;
+}
+
+.Add_btn:hover {
+    background-color: #17ff07;
+    padding: 0.4rem 0.5rem;
+    border-radius: 100%;
+    color: black;
+    font-weight: 800;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(65, 212, 24, 0.9), 10px 10px 40px 10px rgba(24, 58, 18, 0.19);
+    cursor: pointer;
+}
+
+.aero{
+  font-weight: 800;
+}
+
+.Note_div {
+    background-color: #ffffff;
+    display: inline-block;
+    width: 12rem;
+    word-break: break-all;
+    padding: 0.5rem 1rem;
+    margin: 2rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 10px 10px 40px 10px rgba(0, 0, 0, 0.19);
+}
+
+.Note_Tittle {
+    color: #d80000;
+    margin: 0.5rem 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Note_Content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Delete_Note {
+    background-color: #ffd607;
+    padding: 0.4rem 0.5rem;
+    border-radius: 100%;
+    color: #000000;
+    font-weight: 800;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(212, 200, 24, 0.9), 10px 10px 40px 10px rgba(58, 56, 18, 0.19);
+}
+
+.Delete_Note:hover {
+    background-color: #ff0707;
+    padding: 0.4rem 0.5rem;
+    border-radius: 100%;
+    color: #000000;
+    font-weight: 800;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(212, 24, 24, 0.9), 10px 10px 40px 10px rgba(58, 18, 18, 0.19);
+    cursor: pointer;
+}
+
+.Footer_div {
+    background-color: #ffd607;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    bottom: 0;
+    font-weight: 900;
+}

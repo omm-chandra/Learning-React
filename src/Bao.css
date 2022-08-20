@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: xx-large;
+    color: #8c00ff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 2rem;
+}
+
+.navbar-brand:hover{
+    color: #8c00ff;
+}
+
+.Main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home_land {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.latter_center {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+strong{
+    color: #8c00ff;
+}
+
+.button {
+    border-radius: 3rem;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    color: #8c00ff;
+    border-color: #8c00ff;
+}
+
+.button:hover{
+    background-color: #8c00ff;
+    color: #ffffff;
+    border-color: #8c00ff;
+    transition:all 0.5s ease-in-out;
+}
+
+.img_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home_img {
+    width: 100%;
+    height: 100%;
+}
+
+.collapse{
+    position: absolute;
+    right: 2rem;
+}
+
+.nav-link:hover{
+    color:#8c00ff;
+    transition:all 0.7s ease-in-out;
+}
+
+.nav-link:active{
+    color: #000;
+    font-weight: 600;
+}
+
+.div{
+    width: 40rem;;
+    margin:8rem 0;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Label{
+    margin: 0.5rem 0;
+    color: #8c00ff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 4rem;
+}
+
+.input{
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0.2rem 0.5rem;
+}
+
+.sub_btn{
+    width: fit-content;
+    padding: 0.2rem 0.8rem;
+    margin: 1.5rem 0;
+    color: #8c00ff;
+    border-color: #8c00ff;
+}
+
+.sub_btn:hover{
+    background-color: #8c00ff;
+    color: #ffffff;
+    border-color: #8c00ff;
+}
+
+.card{
+    width: 18rem;
+    margin: 0 auto;
+}
+
+.sev_img{
+    width: 18rem;
+    height: 10rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.card-text{
+    margin-bottom: 0.2rem;
+}

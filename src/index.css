@@ -1,0 +1,220 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  /*
+#root {
+    background-color: rgb(168, 203, 203);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+} */
+
+  /* .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdffff;
+    color: rgb(12, 71, 71);
+    padding: 1rem 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+
+  /* .maindiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secdiv {
+    background-color: #fdffff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.secdiv:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 700ms ease-in-out;
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.mainimg {
+    width: 240px;
+    height: 150px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    opacity: 1;
+}
+
+.seriesname {
+    margin: 0.3rem 0.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.series {
+    margin: 0.3rem 0.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.link {
+    margin: 0.3rem 0.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+    padding: 0.2rem 0.3rem;
+    background-color: black;
+    opacity: 0.9;
+    border: none;
+    border-radius: 0.3rem;
+    color: #fff5f5;
+    cursor: pointer;
+}
+@media only screen and (max-width: 826px) {
+    #root {
+        background-color: rgb(168, 203, 203);
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #root {
+        background-color: rgb(168, 203, 203);
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width: 548px) {
+    #root {
+        background-color: rgb(168, 203, 203);
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #root {
+        background-color: rgb(168, 203, 203);
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+} */
+
+
+
+
+
+  /* Slot Machine css */
+
+  /* #slot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+
+  /* TO DO APP */
+  /* 
+#root{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Main_div{
+    background-color: #518c8c;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(43, 144, 135, 12), 0 10px 40px 0 rgba(41, 130, 146, 19);
+}
+
+h2{
+    background-color: rgb(180, 78, 213);
+    box-shadow: 0 4px 8px 0 rgba(161, 76, 185,0.9), 10px 10px 40px 10px rgba(191, 82, 193, 0.19);
+    margin: 2rem;
+    border-radius: 5rem;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+      height: 2rem;
+      color: black;
+      width: 80%;
+      margin: 1rem;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      border-bottom:2px solid black ;
+      background-color:#518c8c ;
+      padding: 0.5rem;
+      font-size: 1rem;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.addbtn{
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 2px solid black;
+    background-color: rgb(149, 45, 147);
+    font-weight: bolder;
+}
+
+.addbtn:hover{
+    background-color: rgb(0, 255, 102);
+    cursor: pointer;
+}
+
+
+
+ol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+
